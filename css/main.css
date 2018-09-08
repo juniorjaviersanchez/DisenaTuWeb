@@ -1,0 +1,570 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+ /*====Esto pertenece ala pagina de planes===*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.menu_fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+
+
+
+nav li:hover{
+    background: #4580b7;
+}
+.navbar{
+    background: #050404;
+}
+
+ /*===============================================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.total{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.parte1{
+    background-image: url(../img/fondo_pantalla.png);
+    
+
+}
+
+.nubes{
+    color: #f9f9f9;
+    position: absolute;
+    border: 2px solid red;
+    z-index: 100;
+    -webkit-animation:uno 23s infinite linear 30s;
+
+}
+@-webkit-keyframes uno {
+    0% {top: 70%; left: 0%; }
+    25% {top: 30%; left: 40%; }
+    50% {top: 30%; left: 60%; }
+    75% {top: 30%; left: 70%; }
+    
+}
+
+
+.yo{
+    background: #C6C8D1;
+}
+
+
+.partemedia1{
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    padding: 60px 1px;
+}
+
+.partemedia2{
+    
+}
+
+.service{
+    border: 3px solid #878787;
+    text-align: center;
+    padding: 10px;
+    -webkit-animation: 4s service infinite;
+    -moz-animation: 4s service infinite;
+}
+@-webkit-keyframes service{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+@-moz-keyframes service{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+.service:hover{
+    color: #344be2;
+}
+
+
+.partemedia3{
+    margin: 0;
+    color: #fff;
+   
+}
+
+
+.partemedia3 video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;   
+}
+.partemedia3 .container{
+    padding:50px;
+}
+.fondo3{
+    background-image: url(../img/fondo_pantalla_web.png);
+}
+
+
+
+.parte2{
+    padding: 50px 0 0 0;
+}
+
+
+.a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.a:hover{
+    -webkit-animation: 4s dos 1;
+    -moz-animation: 4s dos 1;
+}
+@-webkit-keyframes dos{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+@-moz-keyframes dos{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+
+
+
+.parte4{
+    background: #2d2c2c;
+    text-decoration: none;
+}
+
+
+.portafolio:hover{
+    -webkit-animation: 4s tres 1;
+    -moz-animation: 4s tres 1;
+
+}
+@-webkit-keyframes tres{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+@-moz-keyframes tres{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+
+
+
+
+
+.parte5{
+    background: #000000;
+}
+.color3{
+    color: #b7b3b3;
+}
+
+
+
+
+header{
+    background-image: url(../img/tecnologia.png);
+}
+
+
+      /*====Esto pertenece ala pagina de planes===*/
+
+.planes1{
+    
+    
+}
+.planes2{
+    background: #d6d6d6;
+    
+}
+
+.planes2 h2{
+   
+    color: #fff;
+    background: #000000;
+    padding: 10px 20px;
+}
+.planes2 li{
+    margin: 20px 5px;
+}
+
+.planes2 ul{
+    background: #fff;
+    border: 3px solid #d6d6d6;
+}
+.planes2 p{
+    padding: 15px 10px;
+}
+
+.imagenn img{
+    -webkit-animation: 4s tres infinite;
+    -moz-animation: 4s tres infinite;
+
+}
+@-webkit-keyframes tres{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+@-moz-keyframes tres{
+    0%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(-120deg);
+    }
+    25%{
+        opacity: 0.5;
+        -webkit-transform: perspective(500px)
+                           rotateX(80deg);
+    }
+    40%{
+        -webkit-transform: perspective(500px)
+                           rotateX(-20deg);
+    }
+    70%{
+        -webkit-transform: perspective(500px)
+                           rotateX(20deg);
+    }
+}
+
+
+/*=====================================*/
+
+
+/*====Esto pertenece ala pagina de banners===*/
+
+.banner1{
+    background:#95c9be;
+}
+.banner2{
+    background: #afad6d;
+}
+.banner3{
+    background: #af6d6d;
+}
+.controladorbanner{
+    padding: 20px 10px;
+}
+.controladorbanner h2{
+    text-shadow: 3px 3px 5px #bababa;
+}
+.controladorbanner h2:hover{
+    text-shadow: 7px 7px 6px #ffffff;
+}
+/*=====================================*/
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
